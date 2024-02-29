@@ -1,0 +1,11 @@
+import math
+real = float(input('Quantos reais você tem?'))
+dolar = (real/5)
+euro = (real/5.3)
+libra = (real/6.2)
+iene = (real/0.04)
+print ('com R${:.2f} você pode comprar  {:.2f}dolares' .format (real,dolar))
+print ('com R${:.2f} você pode comprar  {:.2f}euros' .format (real,euro))
+print ('com R${:.2f} você pode comprar  {:.2f}libras' .format (real,libra))
+print ('com R${:.2f} você pode comprar {:.2f}ienes' .format (real,iene))
+input()
